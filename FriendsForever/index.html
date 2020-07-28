@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Responsive Layout</title>
+ <style>
+ *{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family: 'Lato', sans-serif;  
+}
+
+.row{
+  width: 100%;
+}
+
+.menu-title{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container{
+ position: relative;
+ top:60px;
+ margin: 15px; 
+}
+
+.item{
+  position: relative;
+  top: 0;
+  background-color:#999999;
+  margin: 15px;
+  padding: 25px;
+  border: 3px solid #000;
+}
+
+.item p{
+  margin-top: 18px;
+  text-align: justify;
+  font-size:100%;
+}
+
+.item-title{
+  position: absolute;
+  top:0;
+  right: 0px;
+  background: green; 
+  padding: 6px 90px;
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+
+#title-one {
+  background-color: #D59898;
+} 
+
+#title-two{
+  background-color: #C14543;
+}
+
+#title-three{
+  background-color: #E5D198;
+}
+#title-four{
+	background-color: #D59898;
+}
+#title-five{
+	 background-color: #E5D198
+}
+#title-six
+{
+		background-color: #D59898;
+
+}
+#hello{
+	font-size: 24 px;
+	color: red;
+}
+#title-seven
+{
+	 background-color: #C14543
+}
+
+/* Simple Responsive Framework. */
+/*------ Desktop ------*/
+@media (min-width: 992px){
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;  
+  }
+  .col-lg-1 {
+    width: 8.33%;
+  }
+  .col-lg-2 {
+    width: 16.66%;
+  }
+  .col-lg-3 {
+    width: 25%;
+  }
+  .col-lg-4 {
+    width: 33.33%;
+  }
+  .col-lg-5 {
+    width: 41.66%;
+  }
+  .col-lg-6 {
+    width: 50%;
+  }
+  .col-lg-7 {
+    width: 58.33%;
+  }
+  .col-lg-8 {
+    width: 66.66%;
+  }
+  .col-lg-9 {
+    width: 74.99%;
+  }
+  .col-lg-10 {
+    width: 83.33%;
+  }
+  .col-lg-11 {
+    width: 91.66%;
+  }
+  .col-lg-12 {
+    width: 100%;
+  }
+
+}
+
+
+/*------ Tablet ------*/
+@media (min-width: 768px) and (max-width: 991px){
+  .col-lg-4 {
+    width: 50%;
+    float: left;
+  }
+  .col-lg-tablet{
+   width: 100%;
+   float: left;
+ }
+}
+
+
+/*------ Mobile ------*/
+@media (max-width: 767px){
+  .col-lg-4{
+    width: 100%;
+    float: left;
+  }
+}
+ </style>
+  
+</head>
+<body>
+
+  <div class="container">
+    <div class="row">
+
+    <h1 class="menu-title">Jackal Pack</h1>
+	<marquee> We will be there forever </marquee>
+      <div class="col-lg-4">
+        <div class="item">
+          <div class="item-title" id="title-one">
+            <h3>Gokul Krishnan</h3>
+          </div>
+          <p>
+            Topper. Really a smart boy. Has 16 girl friends. Birthday on june 20. Fights a lot and simultaneously show more love to his family and friends. Judges the right thing and Bad thing. We wish you to become a Expert in the field you choose and be the best one wherever you go. Bascially now single but he had been in relationship for 2 months. Atlast a the kindest person, best friend, generous person in the gang.
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="item">
+         <div class="item-title" id="title-two">
+          <h3>Al-Shafii-Tej</h3>
+        </div>
+        <p>
+		Topper as well as Saint. The guy who always say that he is willing to die at any moment.We are wishing you to become a great person in the field you choose. He is also the topper. Celebrating the birthday on 18 september. Works Hard for his future wife and sites every girl he come across. Rejected many girls proposal and stays a like a single but actually he is not. Atlast with all the mixed characters he is also the best in the gang.
+        </p>
+      </div>
+    </div>
+    <div class="col-lg-4 col-lg-tablet">
+      <div class="item">
+       <div class="item-title" id="title-three">
+        <h3>Britto</h3>
+      </div>
+      <p>
+	  Basically a celebrity for us. To be frank and open he is an great guy who takes each and every opportunity of his life and convert it to the biggest win. We are very proud of ur success dear. Born on the same september on 7th. Enjoying his life and we insist him to reach the greatest heights in life. We support you and we are always there. Atlast talented and great person in the gang of jackal.
+      </p>
+    </div>
+  </div>
+  <div class="col-lg-4 col-lg-tablet">
+      <div class="item">
+       <div class="item-title" id="title-four">
+        <h3>Ruthra Prasath</h3>
+      </div>
+      <p>
+	  He is like No mouth worm (Vaai Illa puchi). Hardworker aims to become a director. Simultaneously he is an good student and works in part time for his passion. We all encourage you to become the expert and best in your field. Born on September 20 and married to a girl a year ago (just for fun). Writing his stories now and we wish he would become the best in his field in the future. Atlast a silent, Great, And one of the best in the jackal.
+      </p>
+    </div>
+  </div>
+  <div class="col-lg-4 col-lg-tablet">
+      <div class="item">
+       <div class="item-title" id="title-five">
+        <h3>Sanjay</h3>
+      </div>
+      <p>
+	  A silent boy in the gang. Proves to be the best silent person who talks gently and polietly. Smart and excellent boy. Born on 23rd March. We wish you to become the best person in the field whatever you choose. Your smile is ur attraction keep on smiling keep on your due in our gang and maintain till end. Atlast the silent, best and kindest person in the jackal gang.
+      </p>
+    </div>
+  </div>
+   <div class="col-lg-4 col-lg-tablet">
+      <div class="item">
+       <div class="item-title" id="title-six">
+        <h3>Bala subu Mama</h3>
+      </div>
+      <p>
+	  commonly known as Punch Bala (A) Idly Bala. Committed to a girl before a month. Always offers the mokka joke in the gang, and interrupts with the lite smiling comedies (just for fun). A hardworker mainly the he don't says the difficulties he faces to anyone except us (our gang). We all wish u to reach great heights in the field you choose and to be open we will be forever friends. Atlast funny, kind, best person in the gang.
+      </p>
+    </div>
+  </div>
+  
+  <div class="col-lg-4 col-lg-tablet">
+      <div class="item">
+       <div class="item-title" id="title-six">
+        <h3>Bala subu Mama</h3>
+      </div>
+      <p>
+	  commonly known as Punch Bala (A) Idly Bala. Committed to a girl before a month. Always offers the mokka joke in the gang, and interrupts with the lite smiling comedies (just for fun). A hardworker mainly the he don't says the difficulties he faces to anyone except us (our gang). We all wish u to reach great heights in the field you choose and to be open we will be forever friends. Atlast funny, kind, best person in the gang.
+      </p>
+    </div>
+  </div>
+  <div class="col-lg-4 col-lg-tablet">
+      <div class="item">
+       <div class="item-title" id="title-seven">
+        <h3>Mugunthan</h3>
+      </div>
+      <p>
+	  A smart boy. Now developing sites for his friends. And this website is just to tell that we are going to be the best. To be frank and open our friendship started in 12th standard. And I didn't Imagine that we are going to be like this much thick friends. Our gang is the best. And I wish we would be forever till the end like this. <br> Thank You all.
+      </p>
+    </div>
+  </div>
+</div>
+</div>
+</body>
+</html>
