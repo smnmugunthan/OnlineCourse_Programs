@@ -33,7 +33,7 @@ body{
 }
 
 .item p{
-  margin-top: 18px;
+  margin-top: 25px;
   text-align: justify;
   font-size:100%;
 }
@@ -59,7 +59,27 @@ body{
 #title-three{
   background-color: #E5D198;
 }
+#title-four{
+	background-color: #D59898;
+}
+#title-five{
+	 background-color: #E5D198
+}
+#title-six
+{
+		background-color: #D59898;
 
+}
+#hello{
+	font-size: 24 px;
+	color: red;
+}
+#title-seven
+{
+	 background-color: #C14543
+}
+	
+	
 /* Simple Responsive Framework. */
 /*------ Desktop ------*/
 @media (min-width: 992px){
